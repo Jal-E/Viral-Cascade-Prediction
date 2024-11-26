@@ -36,6 +36,25 @@ plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.show()
 
+
+# OUTPUT
+
+'''Precision (Viral Class): 0.5652
+Recall (Viral Class): 0.5200
+F1-Score (Viral Class): 0.5417
+Confusion Matrix:
+ [[48 20]
+ [24 26]]
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.71      0.69        68
+           1       0.57      0.52      0.54        50
+
+    accuracy                           0.63       118
+'''
+
 # Detailed Classification Report
 print("\nDetailed Classification Report:")
 print(classification_report(y_test, y_pred))
