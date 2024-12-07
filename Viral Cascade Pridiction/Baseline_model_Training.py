@@ -91,35 +91,4 @@ Classification Report (Test):
 weighted avg       0.69      0.69      0.69       118
 
 Accuracy Score (Test): 0.6949152542372882
-PS C:\Users\User\Downloads\Desktop\Viral Cascade Pridiction> & C:/Python312/python.exe "c:/Users/User/Downloads/Desktop/Viral Cascade Pridiction/Baseline_model_Training.py"
-=== Training Data Performance ===
-Confusion Matrix (Train):
- [[156   0]
- [  0 156]]
-Classification Report (Train):
-               precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00       156
-           1       1.00      1.00      1.00       156
-
-    accuracy                           1.00       312
-   macro avg       1.00      1.00      1.00       312
-weighted avg       1.00      1.00      1.00       312
-
-Accuracy Score (Train): 1.0
-
-=== Test Data Performance ===
-Confusion Matrix (Test):
- [[45 18]
- [18 37]]
-Classification Report (Test):
-               precision    recall  f1-score   support
-
-           0       0.71      0.71      0.71        63
-           1       0.67      0.67      0.67        55
-
-    accuracy                           0.69       118
-   macro avg       0.69      0.69      0.69       118
-weighted avg       0.69      0.69      0.69       118
-
-Accuracy Score (Test): 0.6949152542372882'''
+'''
